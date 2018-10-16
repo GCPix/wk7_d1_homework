@@ -19,6 +19,7 @@ ResultView.prototype.bindEvents = function () {
 ResultView.prototype.displayResult = function (result) {
     const resultPosition = document.querySelector('#result')
 
+
       if(result === true){resultPosition.textContent = 'This is a prime number'}
       else {resultPosition.textContent = 'This is not a prime number'};
 };
